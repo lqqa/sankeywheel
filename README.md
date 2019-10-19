@@ -3,7 +3,7 @@
 
 # 'sankeywheel': Create Dependency Wheels and Sankey Diagrams
 
-Dependency wheels and sankey diagrams can be drawn by many R Packages, such as [circlize](https://cran.r-project.org/web/packages/circlize/), [networkD3](http://christophergandrud.github.io/networkD3/), and [ggalluvial](https://cran.r-project.org/web/packages/ggalluvial/index.html). These packages are very powerful and easy to use, so why bother to write another duplicate package? As we can see, there are some relationships exist between dependency wheels and sankey diagrams. So why not combined these two types of charts into one R function. At the same time, it would be great to add a little interactivity to the graph. ['Highcharts'](http://www.highcharts.com/), a commerical javascript charting library, can help me realize these ideas. By binding R functions and the ‘Highcharts’ charting library, ‘sankeywheel’ package provides a simple way to draw dependency wheels and sankey diagrams.
+Dependency wheels and sankey diagrams can be drawn by many R Packages, such as [circlize](https://cran.r-project.org/web/packages/circlize/), [networkD3](http://christophergandrud.github.io/networkD3/), and [ggalluvial](https://cran.r-project.org/web/packages/ggalluvial/index.html). These packages are very powerful and easy to use, so why bother to write another duplicate package? As we can see, there are some relationships exist between dependency wheels and sankey diagrams. So why not combined these two types of charts into one R function. At the same time, it would be great to add a little interactivity to the graph. ['Highcharts'](http://www.highcharts.com/), a commercial javascript charting library, can help me realize these ideas. By binding R functions and the ‘Highcharts’ charting library, ‘sankeywheel’ package provides a simple way to draw dependency wheels and sankey diagrams.
 
 First, you can install it from `CRAN` or `GitHub`:
 
@@ -127,6 +127,16 @@ dir <- system.file("examples", "sankeywheel", package = "sankeywheel")
 setwd(dir)
 shiny::shinyAppDir(".")
 ```
+
+## Licence
+
+sankeywheel has a dependency on Highcharts, a commercial JavaScript charting library. Highcharts offers both a commercial license as well as a free non-commercial license. Please review the licensing options and terms before using this software, as the sankeywheel license neither provides nor implies a license for Highcharts.
+
+Highcharts (http://highcharts.com) is a Highsoft product which is not free for commercial and Governmental use.
+
+## Acknowledgements
+
++ [jbkunst/highcharter](https://github.com/jbkunst/highcharter)
 
 -----
 
