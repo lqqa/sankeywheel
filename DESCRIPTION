@@ -28,6 +28,6 @@ Suggests:
     DT
 Roxygen: list(markdown = TRUE)
 VignetteBuilder: knitr
-URL: https://github.com/czxa/sankeywheel
-BugReports: https://github.com/czxa/sankeywheel/issues
+URL: https://github.com/lqqa/sankeywheel
+BugReports: https://github.com/lqqa/sankeywheel/issues
 RoxygenNote: 6.1.1
